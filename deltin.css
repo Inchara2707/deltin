@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=PT+Sans&family=Square+Peg&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+body{
+    height: 100vh;
+    
+}
+.ctr{
+    
+    position: absolute;
+    top:110px;
+    left: 639px;
+    color: grey;
+    
+}
+.dash{
+    color:black;
+    height: 2px;
+    width:80%;
+    position:absolute;
+    top: 140px;
+
+}
+
+.main{
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.form{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.but{
+    height:30px;
+    width:100px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
